@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect, useCallback } from 'react'
 
 // ── CONFIG ────────────────────────────────────────────────────────────────────
 // ⚠️  CHANGE THIS to your current ngrok URL when it rotates
-const WEBHOOK_URL = 'https://first-sponge-noble.ngrok-free.app/webhook/webhook-path-123'
+const WEBHOOK_URL = 'https://first-sponge-noble.ngrok-free.app/webhook-test/webhook-path-123'
 
 // How long to wait for n8n (ms). n8n AI agents can take 30-60 s.
 const FETCH_TIMEOUT_MS = 90_000
